@@ -1,6 +1,8 @@
 .container {
     /* display: flex; */
-    width: 40vw;
+    width: 30vw;
+    min-width: 350px;
+    max-width: 450px;
     /* justify-content: center; */
     /* background-color: red; */
 }
