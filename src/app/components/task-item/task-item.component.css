@@ -1,6 +1,10 @@
 .task {
-    background: #f4f4f4;
-    margin: 5px;
-    padding: 10px 10px;
-    cursor: pointer;
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.task.reminderStyle {
+  border-left: 5px solid green;
 }

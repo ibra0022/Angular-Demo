@@ -1,34 +1,46 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "text": "go to school",
-            "day": "munday",
-            "reminder": true
-          },
-          {
-            "id": 2,
-            "text": "go to home",
-            "day": "sunday",
-            "reminder": true
-          },
-          {
-            "id": 3,
-            "text": "go to hospital",
-            "day": "friday",
-            "reminder": false
-          },
-          {
-            "id": 4,
-            "text": "go to desert",
-            "day": "tuesday",
-            "reminder": false
-          },
-          {
-            "id": 5,
-            "text": "go to mall",
-            "day": "NOT TODAY",
-            "reminder": false
-          }
-    ]
+  "tasks": [
+    {
+      "id": 1,
+      "text": "go to school",
+      "day": "munday",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "go to home",
+      "day": "sunday",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "go to hospital",
+      "day": "friday",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "go to desert",
+      "day": "tuesday",
+      "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "go to mall",
+      "day": "NOT TODAY",
+      "reminder": true
+    },
+    {
+      "text": "go to airport",
+      "day": "TODAY",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "go to cinema",
+      "day": "sunday",
+      "reminder": false,
+      "id": 7
+    }
+  ]
 }

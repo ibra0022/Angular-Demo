@@ -1,8 +1,10 @@
 .container {
-    /* display: flex; */
-    width: 30vw;
-    min-width: 350px;
-    max-width: 450px;
-    /* justify-content: center; */
-    /* background-color: red; */
+  /* display: flex; */
+  width: 30vw;
+  min-width: 350px;
+  max-width: 450px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  /* justify-content: center; */
+  /* background-color: red; */
 }

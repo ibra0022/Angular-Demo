@@ -1,0 +1,35 @@
+<form class="adding-form d-grid gap-3 form-control" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="text" class="form-label">Task</label>
+    <input
+      type="text"
+      class="form-control"
+      name="text"
+      [(ngModel)]="text"
+      id="text"
+      placeholder="Add Text"
+    />
+  </div>
+  <div>
+    <label for="day" class="form-label">Day</label>
+    <input
+      type="text"
+      class="form-control"
+      name="day"
+      [(ngModel)]="day"
+      id="day"
+      placeholder="Add Day"
+    />
+  </div>
+  <div>
+    <label for="reminder" class="form-check-label me-3">Set Reminder</label>
+    <input
+      type="checkbox"
+      class="form-check-input"
+      name="reminder"
+      [(ngModel)]="reminder"
+      id="reminder"
+    />
+  </div>
+  <input type="submit" value="Save Task" class="btn btn-dark" />
+</form>
